@@ -1,11 +1,19 @@
 cff-version: 1.2.0
-message: "Draft citation metadata: replace author placeholders and add the repository URL and actual release date before publication."
+message: "Draft citation metadata: add the repository URL and actual release date before publication."
 type: software
 license: MIT
 title: "Can a few labels restore miss-rate guarantees for weed spot spraying in new fields? An evaluation of conformal risk control"
 authors:
-  - family-names: "AUTHOR_SURNAME"
-    given-names: "AUTHOR_GIVEN_NAMES"
+  - family-names: "Liu"
+    given-names: "Haodong"
+    affiliation: "Gansu Agricultural University"
+  - family-names: "Wei"
+    given-names: "Linjing"
+    affiliation: "Gansu Agricultural University"
+contact:
+  - family-names: "Wei"
+    given-names: "Linjing"
+    affiliation: "Gansu Agricultural University"
 abstract: "Code and summary data for threshold recalibration of weed-spraying risk after field transfer."
 keywords:
   - weed detection

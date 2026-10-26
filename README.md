@@ -104,7 +104,7 @@ part of the prediction release.
 ## Reproduce tables from exported predictions, without a GPU
 
 The sanitized prediction package will be published as an independent Zenodo
-data record: **[prediction DOI to be added]**. It is CC BY 4.0, contains
+data record: **https://doi.org/10.5281/zenodo.23654670**. It is CC BY 4.0, contains
 predictions and necessary image/group/format metadata, and excludes images,
 masks, GT annotations, auxiliary crop annotations and historical paths.
 
@@ -245,5 +245,5 @@ available from the authors upon request.
 
 Fill author/title placeholders in `CITATION.cff` before publication. Use a
 version-specific code Zenodo DOI and an independent prediction-data DOI:
-[prediction DOI to be added]. Account operations and uploads are performed by
+https://doi.org/10.5281/zenodo.23654670. Account operations and uploads are performed by
 the authors; nothing has been uploaded during this local preparation.
