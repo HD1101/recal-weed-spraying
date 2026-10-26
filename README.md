@@ -3,8 +3,8 @@
 ReCal studies how weed-spraying coverage changes when a detector moves to a
 new field, and whether a small labeled calibration set can keep the average missed-weed fraction in weed-positive images below a target. This repository contains
 CPU analysis, dataset preparation, fixed split identifiers, the frozen plan and
-aggregate results. The final manuscript title, authors, section/table numbers,
-repository URL and archive DOI are pending.
+aggregate results. Final manuscript section/table references and the
+version-specific code archive DOI will be added when available.
 
 The analysis plan was frozen on 2026-10-16. Its original file is in `plan/`,
 with SHA256 `e80795012ce4d4b492a0152a5e89acebe8246703c2fd579f7b4b98f64a7e81f9`.
@@ -243,7 +243,7 @@ Ultralytics model stack under MIT. Plain-text settings are supplied in
 `training/TRAINING_SETTINGS.md`; scripts and the ASSET implementation are
 available from the authors upon request.
 
-Fill author/title placeholders in `CITATION.cff` before publication. Use a
-version-specific code Zenodo DOI and an independent prediction-data DOI:
+Author and software citation metadata are provided in `CITATION.cff`. Use a
+version-specific code Zenodo DOI and the independent prediction-data DOI:
 https://doi.org/10.5281/zenodo.23654670. Account operations and uploads are performed by
 the authors; nothing has been uploaded during this local preparation.

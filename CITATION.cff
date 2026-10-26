@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: "Draft citation metadata: add the repository URL and actual release date before publication."
+message: "Please cite this software using the metadata in this file."
 type: software
 license: MIT
+repository-code: "https://github.com/HD1101/recal-weed-spraying"
 title: "Can a few labels restore miss-rate guarantees for weed spot spraying in new fields? An evaluation of conformal risk control"
 authors:
   - family-names: "Liu"
