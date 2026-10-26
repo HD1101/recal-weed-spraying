@@ -1,0 +1,35 @@
+{
+  "heldout": "bbro",
+  "counts": [
+    1200,
+    200
+  ],
+  "audit": {
+    "train_images": 1200,
+    "source_holdout_images": 200,
+    "target_images": 1104,
+    "whole_groups": true,
+    "target_zero_overlap": true,
+    "train_source_holdout_group_overlap": false,
+    "source_groups": [
+      24,
+      5
+    ]
+  },
+  "files": {
+    "train_coco.json": "f0b1e5e62c6dcf104b6433aa0b4cf4439602115d4508be3fa3fbb5122258b53f",
+    "val_coco.json": "c63f865a3d17ba0a6af4331d7eb24450d6617fe9091e0c2adaff86f218bc0649",
+    "train_GT_ONLY.json": "09d0193962a7e4f24369e5522f36b30516ade7fa027404d0ee96a20cb424594f",
+    "val_GT_ONLY.json": "fb04572ac30e8c824675a9e3b318a07b8094106b11e5b78319f7572e8d07a1cf",
+    "target_GT_ONLY.json": "1a2c89102ae3c97a598a673e2e66dfeff3816d6ae58f922973867e3bcf835378",
+    "dataset.yaml": "d19ef7facc008c5b03ca9bd06b250799e43d47c1a69874c0f6640148c4e4c450"
+  },
+  "all_LB_manifest_sha256": "652be73c5128ebdc61f39e00ee46226bd2222af1205090a9fa638dbc84bf3571",
+  "shared_across_all_models_and_seeds": true,
+  "split_seed": 0,
+  "deviation_ids": [],
+  "bbro_reference_sha256": {
+    "train_coco.json": "f0b1e5e62c6dcf104b6433aa0b4cf4439602115d4508be3fa3fbb5122258b53f",
+    "source_holdout_coco.json": "c63f865a3d17ba0a6af4331d7eb24450d6617fe9091e0c2adaff86f218bc0649"
+  }
+}

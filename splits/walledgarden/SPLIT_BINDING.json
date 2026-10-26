@@ -1,0 +1,30 @@
+{
+  "heldout": "walledgarden",
+  "counts": [
+    1200,
+    200
+  ],
+  "audit": {
+    "train_images": 1200,
+    "source_holdout_images": 200,
+    "target_images": 299,
+    "whole_groups": true,
+    "target_zero_overlap": true,
+    "train_source_holdout_group_overlap": false,
+    "source_groups": [
+      16,
+      4
+    ]
+  },
+  "files": {
+    "train_GT_ONLY.json": "7d9d94468d5932acc1aae7f1cd91823771015c5fd7728a684142c9739fbfab40",
+    "val_GT_ONLY.json": "a137970546f60a420be597ab5b6125cf6e4a9730cc7979e383eea56e13f261d1",
+    "target_GT_ONLY.json": "b10f5ebf703260120270eac281d9f14a88793822a8063f08d0b7fc5d0586c0cd",
+    "dataset.yaml": "fa4940ecbb0f9d3b882a4d413f49ec40ce85e466ee5afe9d4cf9cdc7151a0169"
+  },
+  "all_LB_manifest_sha256": "652be73c5128ebdc61f39e00ee46226bd2222af1205090a9fa638dbc84bf3571",
+  "shared_across_all_models_and_seeds": true,
+  "split_seed": 0,
+  "deviation_ids": [],
+  "bbro_reference_sha256": {}
+}

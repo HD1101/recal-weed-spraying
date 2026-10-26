@@ -1,0 +1,79 @@
+[
+  {
+    "id": "D001",
+    "status": "APPROVED",
+    "date": "2026-10-16",
+    "rotation": "near30",
+    "frozen_counts": [
+      1200,
+      200
+    ],
+    "approved_counts": [
+      1203,
+      200
+    ],
+    "reason": "source pool=1403; minimum whole group=7, cannot leave 3 images",
+    "user_approval": "核定 1,203 训练＋200 留出，全部整组使用",
+    "classification": "DEVIATION",
+    "supplementary_material": "S1.3",
+    "timing": "BEFORE_ANY_FORMAL_RESULTS",
+    "approved_before_any_formal_results": true,
+    "existing_results_changed": false,
+    "documentation_updated_on": "2026-10-22"
+  },
+  {
+    "id": "D002",
+    "status": "APPROVED",
+    "classification": "DEVIATION",
+    "title": "Minimum-threshold coverage-ceiling analysis",
+    "date": "2026-10-17",
+    "date_role": "Decision after Batch A results",
+    "timing": "AFTER_BATCH_A_RESULTS",
+    "execution_timing": "AFTER_ALL_FORMAL_RESULTS_COMPLETED",
+    "analysis_type": "POST_RESULT_DESCRIPTIVE",
+    "supplementary_material": "S10",
+    "purpose": "Explain frequent full-spray fallback for YOLO26m",
+    "inputs": "Existing exported predictions and corresponding existing ground-truth annotations",
+    "new_training_or_prediction_export": false,
+    "prespecified_analyses_replaced_or_changed": false,
+    "existing_results_changed": false,
+    "documentation_updated_on": "2026-10-22"
+  },
+  {
+    "id": "D003",
+    "status": "APPROVED",
+    "classification": "DEVIATION",
+    "title": "Ground-truth descriptive statistics by date",
+    "date": "2026-10-19",
+    "date_role": "Computation from existing annotations",
+    "timing": "AFTER_RELEVANT_RESULTS",
+    "analysis_type": "POST_RESULT_DESCRIPTIVE",
+    "supplementary_material": "S4.4",
+    "inputs": "Existing ground-truth annotations only",
+    "predictions_used": false,
+    "prespecified_analyses_replaced_or_changed": false,
+    "existing_results_changed": false,
+    "documentation_updated_on": "2026-10-22"
+  },
+  {
+    "id": "D004",
+    "status": "APPROVED",
+    "classification": "DEVIATION",
+    "title": "Cross-draw aggregation for reporting crop exposure",
+    "date": null,
+    "date_note": "Chosen after results were produced; exact calendar date was not supplied",
+    "timing": "AFTER_RELEVANT_RESULTS",
+    "analysis_type": "POST_RESULT_REPORTING_CHOICE",
+    "supplementary_material": "S8",
+    "frozen_plan_specification": "The crop-pixel ratio was defined; aggregation across repeated draws was not specified",
+    "primary_metric": "mean_crop_exposure",
+    "primary_aggregation": "Within each draw, compute the ratio of total sprayed crop pixels to total crop pixels in that test set; then average the ratios over draws, consistent with the manuscript's two-step aggregation",
+    "alternative_metric": "crop_exposure_pooled_over_repeats",
+    "alternative_aggregation": "Pool sprayed crop pixels and total crop pixels across all draws, then take their ratio",
+    "both_aggregations_reported_in": "Supplementary Material S8",
+    "change_scope": "Reporting choice using existing result fields",
+    "prespecified_analyses_replaced_or_changed": false,
+    "existing_results_changed": false,
+    "documentation_updated_on": "2026-10-22"
+  }
+]

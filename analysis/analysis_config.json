@@ -1,0 +1,55 @@
+{
+  "experiment": {
+    "alpha": 0.1,
+    "delta": 0.05,
+    "N_max": 147,
+    "B_count": 132.3,
+    "Ks": [
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "repeats": 200,
+    "seed": 20261013,
+    "nozzles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "schemes": [
+      "ideal",
+      "grouped"
+    ],
+    "grid_step": 0.001
+  },
+  "date_overrides": {},
+  "crop_methods": [
+    "source",
+    "crc",
+    "perfect_detection_reference",
+    "full_spray"
+  ],
+  "crop_pixel_rule": "pixel_center_in_half_open_union",
+  "pheno_semantics": "data/PhenoBench/val/semantics",
+  "predictions_root": "prediction-data",
+  "prepared_root": "prepared",
+  "output_root": "reproduced",
+  "rotations": [
+    "bbro",
+    "near30",
+    "walledgarden"
+  ],
+  "models": [
+    "asset_detr",
+    "rtdetr_r18",
+    "yolo26m"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ]
+}

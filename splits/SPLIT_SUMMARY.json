@@ -1,0 +1,53 @@
+[
+  {
+    "rotation": "bbro",
+    "splits": {
+      "train": {
+        "images": 1200,
+        "groups": 24
+      },
+      "val": {
+        "images": 200,
+        "groups": 5
+      },
+      "target": {
+        "images": 1104,
+        "groups": 24
+      }
+    }
+  },
+  {
+    "rotation": "near30",
+    "splits": {
+      "train": {
+        "images": 1203,
+        "groups": 30
+      },
+      "val": {
+        "images": 200,
+        "groups": 6
+      },
+      "target": {
+        "images": 2999,
+        "groups": 49
+      }
+    }
+  },
+  {
+    "rotation": "walledgarden",
+    "splits": {
+      "train": {
+        "images": 1200,
+        "groups": 16
+      },
+      "val": {
+        "images": 200,
+        "groups": 4
+      },
+      "target": {
+        "images": 299,
+        "groups": 12
+      }
+    }
+  }
+]

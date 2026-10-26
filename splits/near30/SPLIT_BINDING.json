@@ -1,0 +1,32 @@
+{
+  "heldout": "near30",
+  "counts": [
+    1203,
+    200
+  ],
+  "audit": {
+    "train_images": 1203,
+    "source_holdout_images": 200,
+    "target_images": 2999,
+    "whole_groups": true,
+    "target_zero_overlap": true,
+    "train_source_holdout_group_overlap": false,
+    "source_groups": [
+      30,
+      6
+    ]
+  },
+  "files": {
+    "train_GT_ONLY.json": "9b47d5af2410fa36fbe1e11573c07ac3f4702a5c26217039cd9c1f10ffbe28a1",
+    "val_GT_ONLY.json": "8ed8b1ad64ae5fda29d122e9e67ca70780107bd764a52398bf61e21a6588a9b2",
+    "target_GT_ONLY.json": "e5ddf0c9622ccb19f7147860bbe63a959d7ba32744a981421e3d832b947b54a8",
+    "dataset.yaml": "d0a0f8a8389f3d6852d22650922e826bfb25c57436caf81105b489bb9afaa0a2"
+  },
+  "all_LB_manifest_sha256": "652be73c5128ebdc61f39e00ee46226bd2222af1205090a9fa638dbc84bf3571",
+  "shared_across_all_models_and_seeds": true,
+  "split_seed": 0,
+  "deviation_ids": [
+    "D001"
+  ],
+  "bbro_reference_sha256": {}
+}

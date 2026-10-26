@@ -1,0 +1,80 @@
+{
+  "near30": {
+    "counts": [
+      1203,
+      200
+    ],
+    "seed": 0,
+    "train_groups": [
+      "bbro/2021-04-30/video_0",
+      "bbro/2021-04-30/video_1",
+      "bbro/2021-04-30/video_2",
+      "bbro/2021-04-30/video_3",
+      "bbro/2021-05-07/video_0",
+      "bbro/2021-05-07/video_1",
+      "bbro/2021-05-07/video_2",
+      "bbro/2021-05-07/video_3",
+      "bbro/2021-05-07/video_4",
+      "bbro/2021-05-07/video_5",
+      "bbro/2021-05-07/video_6",
+      "bbro/2021-05-14/video_0",
+      "bbro/2021-05-14/video_2",
+      "bbro/2021-05-14/video_3",
+      "bbro/2021-05-14/video_4",
+      "bbro/2021-05-21/video_1",
+      "bbro/2021-05-21/video_2",
+      "bbro/2021-05-21/video_3",
+      "bbro/2021-05-21/video_4",
+      "bbro/2021-05-21/video_5",
+      "bbro/2021-05-28/video_0",
+      "bbro/2021-05-28/video_1",
+      "walledgarden/2021-04-22/single_photos",
+      "walledgarden/2021-04-22/video_0",
+      "walledgarden/2021-04-22/video_2",
+      "walledgarden/2021-04-22/video_3",
+      "walledgarden/2021-04-30/video_1",
+      "walledgarden/2021-05-06/single_photos",
+      "walledgarden/2021-05-06/video_0",
+      "walledgarden/2021-05-07/single_photos"
+    ],
+    "val_groups": [
+      "bbro/2021-05-14/video_1",
+      "bbro/2021-05-21/video_0",
+      "walledgarden/2021-04-22/video_1",
+      "walledgarden/2021-04-30/video_0",
+      "walledgarden/2021-04-30/video_2",
+      "walledgarden/2021-05-06/video_1"
+    ]
+  },
+  "walledgarden": {
+    "counts": [
+      1200,
+      200
+    ],
+    "seed": 0,
+    "train_groups": [
+      "bbro/2021-05-14/video_0",
+      "bbro/2021-05-14/video_3",
+      "near30/2021-04-30/video_0",
+      "near30/2021-04-30/video_2",
+      "near30/2021-05-07/video_1",
+      "near30/2021-05-14/video_3",
+      "near30/2021-05-18/video_1",
+      "near30/2021-05-18/video_2",
+      "near30/2021-05-21/video_6",
+      "near30/2021-05-25/video_0",
+      "near30/2021-05-25/video_1",
+      "near30/2021-05-25/video_2",
+      "near30/2021-05-28/video_1",
+      "near30/2021-06-01/video_2",
+      "near30/2021-06-01/video_5",
+      "near30/2021-06-04/video_1"
+    ],
+    "val_groups": [
+      "bbro/2021-04-30/video_1",
+      "bbro/2021-05-14/video_4",
+      "near30/2021-05-21/video_0",
+      "near30/2021-06-01/video_4"
+    ]
+  }
+}

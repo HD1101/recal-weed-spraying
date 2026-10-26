@@ -1,0 +1,11 @@
+{
+  "lb_coco": "data/LincolnBeet/all_fields_lincolnbeet.json",
+  "lb_images": "data/LincolnBeet/all",
+  "pheno_val": "data/PhenoBench/val",
+  "od_xml": "data/OD-SugarBeets/Annotations",
+  "od_images": "data/OD-SugarBeets/JPEGImages",
+  "output": "prepared",
+  "od_coordinate_convention": "xml_float_xyxy",
+  "pheno_bbox_convention": "max_minus_min_plus_one",
+  "pheno_tie_break": "lowest_semantic_id"
+}
