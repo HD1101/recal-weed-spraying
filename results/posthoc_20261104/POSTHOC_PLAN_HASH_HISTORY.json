@@ -1,0 +1,6 @@
+{
+  "original_SHA256": "b79afcdbd61d48ff0fb580fd697bfea9ea30113031285de3a08c7449170e5bfc",
+  "revision_1_SHA256": "cfee738294715f0e26860dd1b0c7a71a15f8467636cc191e30ed2c99ab50540a",
+  "revision_1_timestamp": "2026-11-04T11:07:04+09:00",
+  "reason": "User-approved nested group order with fixed K100 test; no D006 risk calculated before revision"
+}

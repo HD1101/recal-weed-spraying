@@ -247,3 +247,57 @@ Author and software citation metadata are provided in `CITATION.cff`. Use a
 version-specific code Zenodo DOI and the independent prediction-data DOI:
 https://doi.org/10.5281/zenodo.23654670. Account operations and uploads are performed by
 the authors; nothing has been uploaded during this local preparation.
+
+## Post hoc analyses (D005–D007)
+
+Version 1.1.0 is prepared locally and is not yet published. Its release date and
+version-specific software DOI are intentionally unset. The original v1.0.0
+software record is https://doi.org/10.5281/zenodo.23660903; the separate prediction
+record remains https://doi.org/10.5281/zenodo.23654670.
+
+The analyses below were planned on 2026-11-04 after the formal results, and are
+registered as D005–D007 in `results/posthoc_20261104/DEVIATIONS_D005_D007.json`.
+They do not replace any prespecified analysis. Original scientific functions,
+result CSVs, fixed splits and the frozen analysis plan are unchanged.
+
+- **D005 (naive-M):** use the same weed-positive-image miss loss, formal draws
+  and full-spray fallback as main CRC; omit only the finite-sample correction.
+- **D006:** use one K-independent group order per repeat, nested calibration
+  pools and the K100-pool-complement test set. This is new resampling and a
+  descriptive sensitivity analysis, not a paired reuse of the formal draws.
+- **D007:** sample SD (ddof=1) of 200 draw-level M values divided by sqrt(200),
+  conditional on a fixed trained detector and dataset. It is not uncertainty
+  across training seeds or deployment fields.
+
+Initial post hoc plan SHA256:
+`b79afcdbd61d48ff0fb580fd697bfea9ea30113031285de3a08c7449170e5bfc`.
+Revision 1 SHA256:
+`cfee738294715f0e26860dd1b0c7a71a15f8467636cc191e30ed2c99ab50540a`.
+Both versions and `POSTHOC_PLAN_HASH_HISTORY.json` are preserved under
+`results/posthoc_20261104/`. The original frozen plan remains in `plan/` with
+SHA256 `e80795012ce4d4b492a0152a5e89acebe8246703c2fd579f7b4b98f64a7e81f9`.
+
+Code and tests are under `analysis/posthoc_20261104/`. Result CSVs include
+D005/D006 per-seed and cross-seed results, paired comparisons, D007 raw draw
+values/SEs and date-independent audit counts. Calibration/test indices and
+ID-only catalogs are under `results/posthoc_20261104/indices/`. No original
+image, mask, truth-box label, private truth provenance or historical-path
+lineage mapping is distributed. Bulky duplicated per-draw JSON metric bundles
+and author-side logs are not part of this release; result CSVs and indices are.
+
+This is a reference-result snapshot, not a completed-run directory. To recompute,
+use a separate empty output directory and obtain the original annotations from
+their providers. The unchanged archive/replay verification entry points also
+require the formal FULL_RESULTS backup/manifest or compatible regenerated
+formal results; those author-side verification inputs are not included here.
+`validate_delivery.py` is the original author-side integrity utility and is not
+the v1.1.0 public-package checksum command. Verify this package instead with
+`shasum -a 256 -c FILE_MANIFEST.sha256`.
+
+Stored `calibration_loss_mean` in full-spray bookkeeping rows can be a zero
+placeholder, not the minimum feasible empirical calibration loss; do not use
+that field as a coverage-ceiling estimate. Tests can be run without a GPU:
+
+```bash
+python -m unittest discover -s analysis -p 'test_*.py'
+```

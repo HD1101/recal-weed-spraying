@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "dataset": "bbro",
+      "images": 1104,
+      "catalog": "results/posthoc_20261104/indices/catalogs/bbro.csv",
+      "catalog_sha256": "d12405eaea799fc32ffb6a39d3e473698cb11fd85020d4b3dfd33bb779d8d662",
+      "formal_indices": "results/posthoc_20261104/indices/formal/bbro.json.gz",
+      "formal_indices_sha256": "ae7e5605f45fea9a5055ad55b39568210eb095b5a3b3d82a4b7a1a5a5191a1c0",
+      "D006_indices": "results/posthoc_20261104/indices/D006/bbro.json.gz",
+      "D006_indices_sha256": "42b7f669421b9a5df1d6ac2445925f10cceb6a9ed39280368bdaf96a80287245",
+      "published_prediction_path": "runs/bbro__asset_detr__seed0/attempt01/predictions01/bbro.json",
+      "published_prediction_sha256": "e77fdbe199b2184a14b785615bd06e37526e7473d27b5bb849f2984c26e8979a"
+    },
+    {
+      "dataset": "near30",
+      "images": 2999,
+      "catalog": "results/posthoc_20261104/indices/catalogs/near30.csv",
+      "catalog_sha256": "21cf6c84534147e117f3310ede460001f8d128811f794250aa604be93cbdbf9b",
+      "formal_indices": "results/posthoc_20261104/indices/formal/near30.json.gz",
+      "formal_indices_sha256": "fc57dd8012215ae2472693e8df58c95233528ed0f357abd025fc9755402e012d",
+      "D006_indices": "results/posthoc_20261104/indices/D006/near30.json.gz",
+      "D006_indices_sha256": "db9239ff3b709fd4817fe71cef6db820e9b9ede5e82dcb2440e735553f63271d",
+      "published_prediction_path": "runs/near30__asset_detr__seed0/attempt01/predictions01/near30.json",
+      "published_prediction_sha256": "7607b7c64a4a8574f8fb70d59fc2fbde0073d3b1a971af6f3bad417fda34dfe5"
+    },
+    {
+      "dataset": "walledgarden",
+      "images": 299,
+      "catalog": "results/posthoc_20261104/indices/catalogs/walledgarden.csv",
+      "catalog_sha256": "663a6de2b34f345100a763ecdf2c07038a7de27f8f05084b49a541a9faf795f2",
+      "formal_indices": "results/posthoc_20261104/indices/formal/walledgarden.json.gz",
+      "formal_indices_sha256": "567a191da65c78fda510c22caf641c06047b4dd1a960aebb530fe7474c1f4981",
+      "D006_indices": "results/posthoc_20261104/indices/D006/walledgarden.json.gz",
+      "D006_indices_sha256": "9c446b4dbe1c1d52cd086a7d86d09de35d19dc88899be859a043966d98371c63",
+      "published_prediction_path": "runs/walledgarden__asset_detr__seed0/attempt01/predictions01/walledgarden.json",
+      "published_prediction_sha256": "ef977fe4a6479f90df6a61e97e0a206a4669dd3b03be1b35f6f0a017e7bb336f"
+    },
+    {
+      "dataset": "PhenoBench",
+      "images": 772,
+      "catalog": "results/posthoc_20261104/indices/catalogs/PhenoBench.csv",
+      "catalog_sha256": "a522c2e8e1ca87915f58ecd4d0dd3976e23755cb44e5ac9afce24ee140cb8aaa",
+      "formal_indices": "results/posthoc_20261104/indices/formal/PhenoBench.json.gz",
+      "formal_indices_sha256": "3a118c29db0fe4b8444536de77cbcd7d02d4b2dee55df53909ffcec433204398",
+      "D006_indices": "results/posthoc_20261104/indices/D006/PhenoBench.json.gz",
+      "D006_indices_sha256": "706b05d3557041f163be722afc45734b3fef0c4ef5d94ee0e5c14c4344c77783",
+      "published_prediction_path": "runs/bbro__asset_detr__seed0/attempt01/predictions01/PhenoBench.json",
+      "published_prediction_sha256": "e6a16c465af06c4506c5b701ff7e2fbfd9deefe4cc159d08dbfffe856bae93e2"
+    },
+    {
+      "dataset": "OD_SugarBeets",
+      "images": 964,
+      "catalog": "results/posthoc_20261104/indices/catalogs/OD_SugarBeets.csv",
+      "catalog_sha256": "b763251abec2026ef2573239a6debc8d791675cda9d2e19a13b6270723c6a4f3",
+      "formal_indices": "results/posthoc_20261104/indices/formal/OD_SugarBeets.json.gz",
+      "formal_indices_sha256": "ded53147751b18e764de0be65f61f611e67f29a572ffea7dfd5d8966d27337bc",
+      "D006_indices": "results/posthoc_20261104/indices/D006/OD_SugarBeets.json.gz",
+      "D006_indices_sha256": "a8c49ae769fe011ef8089e801aae987bb4704e8c007e2eaf5c81c214af5e05ac",
+      "published_prediction_path": "runs/bbro__asset_detr__seed0/attempt01/predictions01/OD_SugarBeets.json",
+      "published_prediction_sha256": "1878c5754b55402c44807fb828a36113c2369f10d2388f6bce57d9cf1e0863f5"
+    }
+  ]
+}

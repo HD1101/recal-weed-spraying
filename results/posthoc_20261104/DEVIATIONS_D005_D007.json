@@ -1,0 +1,33 @@
+{
+  "scope": "New post-result analyses only; existing deviation files and frozen plan remain unchanged",
+  "decision_date": "2026-11-04",
+  "reporting_rule": "Report all results regardless of direction; do not replace any prespecified analysis; register D005-D007 in the manuscript",
+  "deviations": [
+    {
+      "id": "D005",
+      "name": "Same-loss empirical naive-M comparator",
+      "classification": "Post-result methodological comparison",
+      "definition": "Use the same weed-positive-image miss loss, original calibration/test draws and full-spray fallback as main CRC; omit only the finite-sample correction",
+      "original_results_changed": false
+    },
+    {
+      "id": "D006",
+      "name": "Nested group order with fixed K100-pool-complement test set",
+      "classification": "Post-result descriptive resampling sensitivity analysis",
+      "pre_computation_revision": 1,
+      "superseded_definition": "Reuse the original K100 test set for the original K-specific calibration samples",
+      "superseded_definition_problem": "Formal sampling seeds depend on K; smaller-K calibration pools can overlap the K100 test set",
+      "approved_definition": "One new shuffle per repeat with a K-independent D006 seed; prefix calibration pools and K-specific samples; all K share the complement of the K100 calibration pool",
+      "sampling_differs_from_formal_results": true,
+      "original_results_changed": false
+    },
+    {
+      "id": "D007",
+      "name": "Monte Carlo standard errors and 10-percent boundary flags",
+      "classification": "Post-result uncertainty diagnostic",
+      "definition": "Main CRC n=4, grouped K=20/50 and ideal K=50; each training seed separately; sample SD over 200 draw-level M values divided by sqrt(200); flag absolute mean-minus-0.1 no greater than 2SE",
+      "scope_of_uncertainty": "Conditional Monte Carlo uncertainty only, not variation across training seeds or a guarantee",
+      "original_results_changed": false
+    }
+  ]
+}
