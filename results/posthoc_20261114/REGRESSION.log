@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "analysis/posthoc_20261114/run.py", line 24, in <module>
+    from posthoc_20261104.engine import load_records
+  File "analysis/posthoc_20261104/engine.py", line 20, in <module>
+    from additional import CropCurve
+  File "analysis/additional.py", line 11, in <module>
+    from data_prep.grouping import image_date
+ModuleNotFoundError: No module named 'data_prep'

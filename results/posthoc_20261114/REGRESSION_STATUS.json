@@ -1,0 +1,153 @@
+{
+  "plan_sha256": "9b9cc441fef404c2a2fe90e2385662d06a0de440674aaa5bbf58510c920a8730",
+  "registered_at": "2026-11-14T10:58:19+09:00",
+  "started_at": "2026-11-14T11:02:28+09:00",
+  "ended_at": "2026-11-14T11:03:32+09:00",
+  "wall_seconds": 63.720465334132314,
+  "cpu_seconds": 239.67739699999998,
+  "engine_sha256": "fbee5b882ac06acbe33004b9a835249eb72eae388bf0758df6c698934f02569f",
+  "workers": 4,
+  "timing_by_job": [
+    {
+      "job": "bbro__asset_detr__seed0",
+      "worker_cpu_seconds": 9.171955,
+      "worker_wall_seconds": 9.601998416008428
+    },
+    {
+      "job": "bbro__asset_detr__seed1",
+      "worker_cpu_seconds": 9.359079000000001,
+      "worker_wall_seconds": 9.67949300003238
+    },
+    {
+      "job": "bbro__asset_detr__seed2",
+      "worker_cpu_seconds": 9.35413,
+      "worker_wall_seconds": 9.66770837502554
+    },
+    {
+      "job": "bbro__rtdetr_r18__seed0",
+      "worker_cpu_seconds": 9.459534000000001,
+      "worker_wall_seconds": 9.760447333101183
+    },
+    {
+      "job": "bbro__rtdetr_r18__seed1",
+      "worker_cpu_seconds": 9.011563999999998,
+      "worker_wall_seconds": 9.101360915927216
+    },
+    {
+      "job": "bbro__rtdetr_r18__seed2",
+      "worker_cpu_seconds": 9.000356,
+      "worker_wall_seconds": 9.09618299989961
+    },
+    {
+      "job": "bbro__yolo26m__seed0",
+      "worker_cpu_seconds": 3.062037,
+      "worker_wall_seconds": 3.091502374969423
+    },
+    {
+      "job": "bbro__yolo26m__seed1",
+      "worker_cpu_seconds": 2.9857429999999994,
+      "worker_wall_seconds": 3.007426000200212
+    },
+    {
+      "job": "bbro__yolo26m__seed2",
+      "worker_cpu_seconds": 3.148162000000001,
+      "worker_wall_seconds": 3.190320417052135
+    },
+    {
+      "job": "near30__asset_detr__seed0",
+      "worker_cpu_seconds": 15.783069000000001,
+      "worker_wall_seconds": 16.937523708911613
+    },
+    {
+      "job": "near30__asset_detr__seed1",
+      "worker_cpu_seconds": 16.139537,
+      "worker_wall_seconds": 16.91890495782718
+    },
+    {
+      "job": "near30__asset_detr__seed2",
+      "worker_cpu_seconds": 16.24601,
+      "worker_wall_seconds": 16.99095654208213
+    },
+    {
+      "job": "near30__rtdetr_r18__seed0",
+      "worker_cpu_seconds": 16.427073000000004,
+      "worker_wall_seconds": 17.202221916988492
+    },
+    {
+      "job": "near30__rtdetr_r18__seed1",
+      "worker_cpu_seconds": 15.854241000000002,
+      "worker_wall_seconds": 16.511429625097662
+    },
+    {
+      "job": "near30__rtdetr_r18__seed2",
+      "worker_cpu_seconds": 15.91695,
+      "worker_wall_seconds": 16.349531166953966
+    },
+    {
+      "job": "near30__yolo26m__seed0",
+      "worker_cpu_seconds": 7.605467000000004,
+      "worker_wall_seconds": 7.803470333106816
+    },
+    {
+      "job": "near30__yolo26m__seed1",
+      "worker_cpu_seconds": 7.686380999999997,
+      "worker_wall_seconds": 7.878648166079074
+    },
+    {
+      "job": "near30__yolo26m__seed2",
+      "worker_cpu_seconds": 7.292009,
+      "worker_wall_seconds": 7.474619625136256
+    },
+    {
+      "job": "walledgarden__asset_detr__seed0",
+      "worker_cpu_seconds": 7.644486999999998,
+      "worker_wall_seconds": 7.884453625185415
+    },
+    {
+      "job": "walledgarden__asset_detr__seed1",
+      "worker_cpu_seconds": 7.514980000000001,
+      "worker_wall_seconds": 7.695878749946132
+    },
+    {
+      "job": "walledgarden__asset_detr__seed2",
+      "worker_cpu_seconds": 7.529453999999994,
+      "worker_wall_seconds": 7.5870799999684095
+    },
+    {
+      "job": "walledgarden__rtdetr_r18__seed0",
+      "worker_cpu_seconds": 7.522251000000004,
+      "worker_wall_seconds": 7.583768791984767
+    },
+    {
+      "job": "walledgarden__rtdetr_r18__seed1",
+      "worker_cpu_seconds": 7.509377999999998,
+      "worker_wall_seconds": 7.568523750174791
+    },
+    {
+      "job": "walledgarden__rtdetr_r18__seed2",
+      "worker_cpu_seconds": 7.432873999999998,
+      "worker_wall_seconds": 7.488976333057508
+    },
+    {
+      "job": "walledgarden__yolo26m__seed0",
+      "worker_cpu_seconds": 3.8052350000000033,
+      "worker_wall_seconds": 3.8369593750685453
+    },
+    {
+      "job": "walledgarden__yolo26m__seed1",
+      "worker_cpu_seconds": 3.609299,
+      "worker_wall_seconds": 3.6406231250148267
+    },
+    {
+      "job": "walledgarden__yolo26m__seed2",
+      "worker_cpu_seconds": 3.293087,
+      "worker_wall_seconds": 3.3212150840554386
+    }
+  ],
+  "status": "PASSED",
+  "rows_checked": 2232,
+  "bad_rows": 0,
+  "maximum_absolute_difference": 2.220446049250313e-16,
+  "labels_verified": 6138,
+  "comparison_sha256": "490da9d33d50cc9753bbb2e6cd7d1157910e66242a7c27df9e2ed59950c59e23"
+}

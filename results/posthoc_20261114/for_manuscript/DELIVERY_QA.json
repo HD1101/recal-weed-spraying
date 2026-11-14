@@ -1,0 +1,46 @@
+{
+  "D008": {
+    "rows": 54,
+    "all_raw_data_fields_match_source": true
+  },
+  "D009": {
+    "rows": 162,
+    "all_raw_data_fields_match_source": true
+  },
+  "D010": {
+    "rows": 108,
+    "all_raw_data_fields_match_source": true
+  },
+  "figure_A_source_values": {
+    "data_points_verified": 12,
+    "reference_bounds_verified": 2,
+    "majority_full_spray_points": 0
+  },
+  "FIG_A_RISK_TARGET_SPRAY_AREA": {
+    "print_width_mm": 159.00400000000002,
+    "PNG_pixels": [
+      3756,
+      2058
+    ],
+    "PNG_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "PDF_fonts_embedded": true,
+    "PDF_embedded_images": 0
+  },
+  "FIG_B_WORKFLOW": {
+    "print_width_mm": 159.00400000000002,
+    "PNG_pixels": [
+      3756,
+      1560
+    ],
+    "PNG_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "PDF_fonts_embedded": true,
+    "PDF_embedded_images": 0
+  },
+  "upstream_manifest_match": true
+}

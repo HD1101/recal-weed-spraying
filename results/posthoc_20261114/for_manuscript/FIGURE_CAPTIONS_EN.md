@@ -1,0 +1,5 @@
+# Draft figure captions
+
+**Figure A. Risk target and simulated sprayed area (post hoc analysis D009).** Points show the mean across three training seeds for each detector on each held-out Lincoln Beet field with grouped calibration, K = 50, and n = 4. Error bars show the minimum and maximum across seeds. An X would denote a mean of more than 100 full-spray fallbacks per 200 draws. None of the plotted cells met that criterion. The shaded band shows the range of simulated sprayed area for the ground-truth-box trigger reference on the two held-out fields.
+
+**Figure B. From detector predictions to spot-spraying decisions and evaluation.** Weed predictions at or above the confidence threshold trigger a spray zone in each strip intersected by the predicted box. The threshold can be set on source-field data or recalibrated by conformal risk control (CRC) using K labeled target-field images. If CRC finds no feasible threshold, the simulated policy switches to full spray. Evaluation summarizes the mean missed-weed fraction in weed-positive images (M), simulated sprayed area (A), and the number of full-spray fallbacks across calibration draws. The graphic is schematic.

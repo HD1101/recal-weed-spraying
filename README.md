@@ -250,8 +250,8 @@ the authors; nothing has been uploaded during this local preparation.
 
 ## Post hoc analyses (D005–D007)
 
-Version 1.1.0 is prepared locally and is not yet published. Its release date and
-version-specific software DOI are intentionally unset. The original v1.0.0
+Version 1.2.0 adds the revision 2 plan, code and results for post hoc analyses
+D008–D010. The release date and version-specific software DOI are intentionally unset. The original v1.0.0
 software record is https://doi.org/10.5281/zenodo.23660903; the separate prediction
 record remains https://doi.org/10.5281/zenodo.23654670.
 
@@ -283,7 +283,7 @@ values/SEs and date-independent audit counts. Calibration/test indices and
 ID-only catalogs are under `results/posthoc_20261104/indices/`. No original
 image, mask, truth-box label, private truth provenance or historical-path
 lineage mapping is distributed. Bulky duplicated per-draw JSON metric bundles
-and author-side logs are not part of this release; result CSVs and indices are.
+and author-side logs for D005–D007 are excluded; result CSVs and indices are included.
 
 This is a reference-result snapshot, not a completed-run directory. To recompute,
 use a separate empty output directory and obtain the original annotations from
@@ -291,8 +291,16 @@ their providers. The unchanged archive/replay verification entry points also
 require the formal FULL_RESULTS backup/manifest or compatible regenerated
 formal results; those author-side verification inputs are not included here.
 `validate_delivery.py` is the original author-side integrity utility and is not
-the v1.1.0 public-package checksum command. Verify this package instead with
+the v1.2.0 public-package checksum command. Verify this package instead with
 `shasum -a 256 -c FILE_MANIFEST.sha256`.
+
+### Revision 2 post hoc analyses (D008–D010)
+
+The [registered plan](plan/POSTHOC_PLAN_20261114_REV2.md) covers nozzle count
+(D008), risk targets (D009) and the weed-box coverage criterion (D010).
+The [analysis module](analysis/posthoc_20261114/README.md) and
+[result snapshot](results/posthoc_20261114/POSTHOC_REPORT_20261114.md) include
+tests, regression comparisons, run receipts and materials for the manuscript.
 
 Stored `calibration_loss_mean` in full-spray bookkeeping rows can be a zero
 placeholder, not the minimum feasible empirical calibration loss; do not use

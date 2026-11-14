@@ -1,5 +1,9 @@
 # Result fields and manuscript mapping
 
+Version 1.2.0 adds the [revision 2 plan](../plan/POSTHOC_PLAN_20261114_REV2.md)
+and the [code](../analysis/posthoc_20261114/) and [results](posthoc_20261114/)
+for D008–D010.
+
 All CSV fractions are in [0,1]; multiply by 100 for percentages. Blank values
 are undefined/unavailable, never zero. `_seed_mean/min/max` are the arithmetic
 mean and range of available seed-level statistics, not confidence intervals.

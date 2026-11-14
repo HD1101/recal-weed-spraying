@@ -1,0 +1,162 @@
+{
+  "plan_sha256": "9b9cc441fef404c2a2fe90e2385662d06a0de440674aaa5bbf58510c920a8730",
+  "registered_at": "2026-11-14T10:58:19+09:00",
+  "started_at": "2026-11-14T11:03:37+09:00",
+  "ended_at": "2026-11-14T11:09:02+09:00",
+  "wall_seconds": 324.37668237509206,
+  "cpu_seconds": 1242.7613859999997,
+  "engine_sha256": "fbee5b882ac06acbe33004b9a835249eb72eae388bf0758df6c698934f02569f",
+  "workers": 4,
+  "timing_by_job": [
+    {
+      "job": "bbro__asset_detr__seed0",
+      "worker_cpu_seconds": 45.381595,
+      "worker_wall_seconds": 46.10437058284879
+    },
+    {
+      "job": "bbro__asset_detr__seed1",
+      "worker_cpu_seconds": 47.734029,
+      "worker_wall_seconds": 48.38277133391239
+    },
+    {
+      "job": "bbro__asset_detr__seed2",
+      "worker_cpu_seconds": 46.198512,
+      "worker_wall_seconds": 46.91845195903443
+    },
+    {
+      "job": "bbro__rtdetr_r18__seed0",
+      "worker_cpu_seconds": 50.149265,
+      "worker_wall_seconds": 50.81450808304362
+    },
+    {
+      "job": "bbro__rtdetr_r18__seed1",
+      "worker_cpu_seconds": 48.161562,
+      "worker_wall_seconds": 48.589423541910946
+    },
+    {
+      "job": "bbro__rtdetr_r18__seed2",
+      "worker_cpu_seconds": 47.240938,
+      "worker_wall_seconds": 47.585184667026624
+    },
+    {
+      "job": "bbro__yolo26m__seed0",
+      "worker_cpu_seconds": 11.349299000000002,
+      "worker_wall_seconds": 11.568145875120535
+    },
+    {
+      "job": "bbro__yolo26m__seed1",
+      "worker_cpu_seconds": 11.050569000000003,
+      "worker_wall_seconds": 11.119667999912053
+    },
+    {
+      "job": "bbro__yolo26m__seed2",
+      "worker_cpu_seconds": 11.108553,
+      "worker_wall_seconds": 11.162879166891798
+    },
+    {
+      "job": "near30__asset_detr__seed0",
+      "worker_cpu_seconds": 86.698754,
+      "worker_wall_seconds": 89.03436754108407
+    },
+    {
+      "job": "near30__asset_detr__seed1",
+      "worker_cpu_seconds": 88.32277900000001,
+      "worker_wall_seconds": 90.57147062500007
+    },
+    {
+      "job": "near30__asset_detr__seed2",
+      "worker_cpu_seconds": 84.99582699999999,
+      "worker_wall_seconds": 87.35144866700284
+    },
+    {
+      "job": "near30__rtdetr_r18__seed0",
+      "worker_cpu_seconds": 84.091744,
+      "worker_wall_seconds": 86.25075599993579
+    },
+    {
+      "job": "near30__rtdetr_r18__seed1",
+      "worker_cpu_seconds": 76.73254700000001,
+      "worker_wall_seconds": 77.74142458382994
+    },
+    {
+      "job": "near30__rtdetr_r18__seed2",
+      "worker_cpu_seconds": 76.08472700000002,
+      "worker_wall_seconds": 77.2229082910344
+    },
+    {
+      "job": "near30__yolo26m__seed0",
+      "worker_cpu_seconds": 27.655031000000008,
+      "worker_wall_seconds": 28.216014000121504
+    },
+    {
+      "job": "near30__yolo26m__seed1",
+      "worker_cpu_seconds": 28.758589,
+      "worker_wall_seconds": 28.95100108301267
+    },
+    {
+      "job": "near30__yolo26m__seed2",
+      "worker_cpu_seconds": 27.605480999999997,
+      "worker_wall_seconds": 28.030770000070333
+    },
+    {
+      "job": "walledgarden__asset_detr__seed0",
+      "worker_cpu_seconds": 43.88362699999999,
+      "worker_wall_seconds": 44.21364679094404
+    },
+    {
+      "job": "walledgarden__asset_detr__seed1",
+      "worker_cpu_seconds": 45.743390000000005,
+      "worker_wall_seconds": 46.06100433319807
+    },
+    {
+      "job": "walledgarden__asset_detr__seed2",
+      "worker_cpu_seconds": 42.841994,
+      "worker_wall_seconds": 43.0260192907881
+    },
+    {
+      "job": "walledgarden__rtdetr_r18__seed0",
+      "worker_cpu_seconds": 43.44969299999997,
+      "worker_wall_seconds": 43.61159083317034
+    },
+    {
+      "job": "walledgarden__rtdetr_r18__seed1",
+      "worker_cpu_seconds": 45.305803000000026,
+      "worker_wall_seconds": 45.51439170795493
+    },
+    {
+      "job": "walledgarden__rtdetr_r18__seed2",
+      "worker_cpu_seconds": 40.916710999999964,
+      "worker_wall_seconds": 41.141441041836515
+    },
+    {
+      "job": "walledgarden__yolo26m__seed0",
+      "worker_cpu_seconds": 29.401994000000002,
+      "worker_wall_seconds": 29.482776750111952
+    },
+    {
+      "job": "walledgarden__yolo26m__seed1",
+      "worker_cpu_seconds": 28.593233999999995,
+      "worker_wall_seconds": 28.65938966604881
+    },
+    {
+      "job": "walledgarden__yolo26m__seed2",
+      "worker_cpu_seconds": 23.261564999999962,
+      "worker_wall_seconds": 23.30037641711533
+    }
+  ],
+  "status": "COMPLETED",
+  "rows": {
+    "D008": {
+      "per_seed": 4860,
+      "cross_seed": 1620
+    },
+    "D009": {
+      "per_seed": 1620,
+      "cross_seed": 540
+    },
+    "D010": {
+      "per_seed": 1620,
+      "cross_seed": 540
+    }
+  }
+}

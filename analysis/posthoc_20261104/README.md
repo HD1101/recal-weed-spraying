@@ -2,7 +2,7 @@
 
 This additive module is invoked explicitly. It does not register a new method
 in the original risk-control module or change any existing function, split,
-training recipe, result CSV, or frozen plan. It was executed locally; its code and result snapshot are prepared for release v1.1.0.
+training recipe, result CSV, or frozen plan. It was executed locally; its code and result snapshot are included in v1.2.0. The revision 2 plan, code and results for D008–D010 are documented in [the companion module](../posthoc_20261114/README.md).
 
 The time-stamped plan and its pre-computation revision are in
 `results/posthoc_20261104/`. D006 revision 1 supersedes the originally proposed
